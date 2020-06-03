@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591197619140' stop='1591197637219'>
+    <name>click on link</name>
+    <title>click on link</title>
+    <test-cases>
+        <test-case start='1591197619140' status='broken' stop='1591197637215'>
+            <name>click the link</name>
+            <title>click the link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Given xpath expression "//[contains(text(),'PRODUCT')]" is invalid: SyntaxError: The expression is not a legal expression.</message>
+                <stack-trace>invalid selector: Given xpath expression "//[contains(text(),'PRODUCT')]" is invalid: SyntaxError: The expression is not a legal expression.
+                    at getErrorFromResponseBody (C:\DMH-E2E\node_modules\webdriver\build\utils.js:124:10)
+                    at WebDriverRequest._request (C:\DMH-E2E\node_modules\webdriver\build\request.js:118:56)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at async Browser.$ (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+                    at async Browser.runCommandWithHooks (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at global.$ (C:\DMH-E2E\node_modules\@wdio\runner\build\index.js:195:36)
+                    at Sample.get link [as link] (C:\DMH-E2E\pages\sample.page.js:3:26)
+                    at Sample.clickOnLink (C:\DMH-E2E\pages\sample.page.js:7:10)
+                    at Context.&lt;anonymous> (C:\DMH-E2E\test\sample.test.js:10:16)
+                    at Context.executeSync (C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

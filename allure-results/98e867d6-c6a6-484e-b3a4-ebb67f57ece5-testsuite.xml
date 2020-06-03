@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591197618525' stop='1591197635663'>
+    <name>scroll to element</name>
+    <title>scroll to element</title>
+    <test-cases>
+        <test-case start='1591197618529' status='broken' stop='1591197635661'>
+            <name>should scroll to forgot pwd link</name>
+            <title>should scroll to forgot pwd link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-10.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>data did not match any variant of untagged enum PointerActionItem at line 1 column 158</message>
+                <stack-trace>invalid argument: data did not match any variant of untagged enum PointerActionItem at line 1 column 158
+                    at getErrorFromResponseBody (C:\DMH-E2E\node_modules\webdriver\build\utils.js:124:10)
+                    at WebDriverRequest._request (C:\DMH-E2E\node_modules\webdriver\build\request.js:118:56)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at async Element.runCommandWithHooks (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at CRMPage.moveToElement (C:\DMH-E2E\pages\crm.page.js:11:17)
+                    at Context.&lt;anonymous> (C:\DMH-E2E\test\scrollview.test.js:12:17)
+                    at Context.executeSync (C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

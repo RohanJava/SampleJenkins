@@ -4,7 +4,7 @@ const loginPage = require("../pages/loginpage");
 describe("Handle application login", function(){
 
     it("enter username", function(){
-        browser.url(`${browser.options.baseUrl}/login`);
+        browser.url('https://app.hubspot.com/login');
         loginPage.enterUserName('tomsmith');
         assert.equal('tomsmith', loginPage.username.getValue());
     });

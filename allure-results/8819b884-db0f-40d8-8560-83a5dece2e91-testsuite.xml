@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591198320769' stop='1591198362245'>
+    <name>about us video</name>
+    <title>about us video</title>
+    <test-cases>
+        <test-case start='1591198320770' status='undefined'>
+            <name>should open with paused music</name>
+            <title>should open with paused music</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.61'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1591198320770' status='failed' stop='1591198362242'>
+            <name>should open with paused music</name>
+            <title>should open with paused music</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.61'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected undefined to equal 'true'</message>
+                <stack-trace>AssertionError: expected undefined to equal 'true'
+                    at Context.&lt;anonymous> (C:\DMH-E2E\test\actions.test.js:27:29)
+                    at Context.executeSync (C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1591198362243' status='pending' stop='1591198362243'>
+            <name>play music</name>
+            <title>play music</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1591198362243' status='pending' stop='1591198362244'>
+            <name>pause music</name>
+            <title>pause music</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,110 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591197664520' stop='1591197702141'>
+    <name>Handle application login</name>
+    <title>Handle application login</title>
+    <test-cases>
+        <test-case start='1591197664521' status='broken' stop='1591197679051'>
+            <name>enter username</name>
+            <title>enter username</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.61'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("#username") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("#username") still not displayed after 10000ms
+                    at C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\waitUntil.js:34:15
+                    at async Element.elementErrorHandlerCallbackFn (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at async Element.runCommandWithHooks (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Element.waitForDisplayed (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:14:15)
+                    at Element.wrapCommandFn (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:54:17)
+                    at Element.elementErrorHandlerCallbackFn (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:21:57)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at LoginPage.enterUserName (C:\DMH-E2E\pages\loginpage.js:12:19)
+                    at Context.&lt;anonymous> (C:\DMH-E2E\test\login.test.js:8:19)
+                    at Context.executeSync (C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1591197679054' status='broken' stop='1591197689599'>
+            <name>enter password</name>
+            <title>enter password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.61'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("#password") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("#password") still not displayed after 10000ms
+                    at C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\waitUntil.js:34:15
+                    at async Element.elementErrorHandlerCallbackFn (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at async Element.runCommandWithHooks (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Element.waitForDisplayed (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:14:15)
+                    at Element.wrapCommandFn (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:54:17)
+                    at Element.elementErrorHandlerCallbackFn (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:21:57)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at LoginPage.enterPassword (C:\DMH-E2E\pages\loginpage.js:16:19)
+                    at Context.&lt;anonymous> (C:\DMH-E2E\test\login.test.js:13:19)
+                    at Context.executeSync (C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1591197689603' status='passed' stop='1591197692109'>
+            <name>click login button</name>
+            <title>click login button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.61'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1591197692109' status='broken' stop='1591197702133'>
+            <name>Should clear username value</name>
+            <title>Should clear username value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.61'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "#username" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#username" because element wasn't found
+                    at implicitWait (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\implicitWait.js:22:13)
+                    at Element.runCommandWithHooks (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\DMH-E2E\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\DMH-E2E\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Context.&lt;anonymous> (C:\DMH-E2E\test\login.test.js:23:28)
+                    at Context.executeSync (C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\DMH-E2E\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

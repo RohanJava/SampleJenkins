@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591198370481' stop='1591198377344'>
+    <name>scroll to element</name>
+    <title>scroll to element</title>
+    <test-cases>
+        <test-case start='1591198370482' status='passed' stop='1591198377342'>
+            <name>should scroll to forgot pwd link</name>
+            <title>should scroll to forgot pwd link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-7'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.61'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
