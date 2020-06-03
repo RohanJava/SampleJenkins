@@ -164,7 +164,15 @@ exports.config = {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
         disableWebdriverScreenshotsReporting: true,
-            }]
+            }],
+            ['junit', {
+              outputDir: 'report/junit',
+              outputFileFormat: function(options) { // optional
+                return `test-${options.cid}-results.xml`;
+              },
+            }],
+         
+           
         ],
 
  

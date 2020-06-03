@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="handling_checkboxes" timestamp="2020-06-03T18:22:46" time="20.649" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="handling checkboxes"/>
+      <property name="capabilities" value="firefox.76_0_1.windows"/>
+      <property name="file" value=".\test\checkbox.test.js"/>
+    </properties>
+    <testcase classname="firefox.76_0_1.windows.handling_checkboxes" name="check_page_url" time="3.352"/>
+    <testcase classname="firefox.76_0_1.windows.handling_checkboxes" name="check_checkbox_page_header" time="0.825"/>
+    <testcase classname="firefox.76_0_1.windows.handling_checkboxes" name="should_click_checkbox" time="15.899"/>
+    <testcase classname="firefox.76_0_1.windows.handling_checkboxes" name="check_checkbox_page_url" time="0.559"/>
+  </testsuite>
+</testsuites>

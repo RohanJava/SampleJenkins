@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="handling_checkboxes" timestamp="2020-06-03T18:22:47" time="19.237" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="handling checkboxes"/>
+      <property name="capabilities" value="chrome.83_0_4103_61.windowsnt"/>
+      <property name="file" value=".\test\checkbox.test.js"/>
+    </properties>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.handling_checkboxes" name="check_page_url" time="2.426"/>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.handling_checkboxes" name="check_checkbox_page_header" time="0.665"/>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.handling_checkboxes" name="should_click_checkbox" time="15.644"/>
+    <testcase classname="chrome.83_0_4103_61.windowsnt.handling_checkboxes" name="check_checkbox_page_url" time="0.491"/>
+  </testsuite>
+</testsuites>
